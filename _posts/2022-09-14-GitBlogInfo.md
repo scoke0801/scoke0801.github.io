@@ -36,7 +36,10 @@ tags: [github, blog]
 	- 해당 경로를 들어가보면 성공적으로 Jekyll에 의해서 다음과 같은 모습의 로컬 블로그가 생성된 것을 확인하실 수 있습니다.  
 	![image](https://user-images.githubusercontent.com/28253934/189923130-4381a2d6-8f8e-46b6-b7e7-9001f3b71638.png)  
  
- 
+# 2. 깃허브 저장소 생성
+깃허브에서 사용자이름.github.io 형식으로 저장소를 생성 후 원하는 경로에 clone 해주세요.  
+![image](https://user-images.githubusercontent.com/28253934/189920168-58680b36-74a3-4eff-88b3-8dfc674767a6.png)  
+
 # 3. Jekyll 테마 적용 ( Chirpy )  
 
 아래의 사이트들에서 마음에 드는 테마를 골라 적용할 수 있습니다.
