@@ -1,9 +1,9 @@
-﻿
----
-title : 블로그 소개
-date : 2022-09-13 23:46:00 +09:00
-categories : [깃허브 블로그]
-tags : [github blog]
+﻿---
+title: GitBlog
+author: scoke0801
+date: 2022-09-14 00:00:00 +09:00
+categories: [Github blog]
+tags: [Github, blog]
 ---
 
 # Github Blog 생성 정리
