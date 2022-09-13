@@ -38,23 +38,4 @@ tags: [Github, blog]
 깃허브에서 <계정이름>.github.io 형식으로 저장소를 생성해줍니다.
 
 생성된 저장소 경로를 원하는 폴더 경로에 clone하여주세요.
-
-## 3.  Jekyll 테마 적용 ( Chirpy )
-아래의 사이트들에서 마음에 드는 테마를 골라 적용할 수 있습니다.
-- https://jekyll-themes.com/free/
-- http://jekyllthemes.org/
-- http://themes.jekyllrc.org/
-
-저는 http://jekyllthemes.org/themes/jekyll-theme-chirpy/ 요 링크의 테마가 깔끔하니 이뻐보여 선택하여 적용하였습니다. 
-
-Download를 눌러 테마를 다운받아줍니다.
-테마를 적용하기 위하여 불필요한 파일들의 삭제가 필요합니다.
-다행히도 이러한 절차가 tools/init.sh 파일에 작성이 되어있기에 해당 파일을 실행함으로써 간단히 해결해줍시다.
-
-- 압축해제된 루트 폴더에서 마우스 좌클릭하여 Git Bash Here 를 클릭합니다.
-- 다음 명령어를 실행하여 위의 파일이 실행되도록 합니다.
-- `sh tools/init.sh`
-- 리눅스 환경이 아닌 윈도우 환경에서 작업할 것이기에 플랫폼 처리를 위하여 다음 명령어를 실행해주세요. 
-- `bundle lock --add-platform x86_64-linux`
-- .gitignore파일 하단에 Gemfile.lock 파일을 추가해주세요
  
