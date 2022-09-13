@@ -34,15 +34,17 @@ tags: [github, blog]
 		- `bundle add webrick`
 	- 정상적으로 설치가 완료가 되고 실행이 된다면 콘솔창에 Server address: http://127.0.0.1:4000/ 메시지 등이 출력이 될 것입니다. 
 	- 해당 경로를 들어가보면 성공적으로 Jekyll에 의해서 다음과 같은 모습의 로컬 블로그가 생성된 것을 확인하실 수 있습니다.  
-	![image](https://user-images.githubusercontent.com/28253934/189923130-4381a2d6-8f8e-46b6-b7e7-9001f3b71638.png)
+	![image](https://user-images.githubusercontent.com/28253934/189923130-4381a2d6-8f8e-46b6-b7e7-9001f3b71638.png)  
  
 ---
 2.  깃허브 저장소 만들기  
+
 깃허브에서 <계정이름>.github.io 형식으로 저장소를 생성해줍니다.
-![image](https://user-images.githubusercontent.com/28253934/189920168-58680b36-74a3-4eff-88b3-8dfc674767a6.png)
+![image](https://user-images.githubusercontent.com/28253934/189920168-58680b36-74a3-4eff-88b3-8dfc674767a6.png)  
 
 ---
 3.  Jekyll 테마 적용 ( Chirpy )  
+
 아래의 사이트들에서 마음에 드는 테마를 골라 적용할 수 있습니다.
 - https://jekyll-themes.com/free/
 - http://jekyllthemes.org/
@@ -63,7 +65,7 @@ Download를 눌러 테마를 다운받아줍니다.
 - .gitignore파일 하단에 Gemfile.lock 파일을 추가해주세요
 
 ---
-3-1 _config.yml 수정  
+3-1. _config.yml 수정  
 
 현재 블로그의 기본 스킨은 테마 개발자의 정보를 기반으로 작성된 디폴트 값이기 때문에 _config.yml파일에서 아래의 내용들을 사용자 정보에 맞게 수정해주어야 합니다.
 - lang :: en -> kor
@@ -84,12 +86,14 @@ _config.yml파일의 수정까지 모두 완료가 되었다면 github블로그 
 - bundle exec jekyll serve --trace
 
 ---
-3-2 블로그 배포    
+3-2. 블로그 배포    
+
 마지막으로 현재까지 작업한 파일들을 깃에 커밋하여 깃허브 블로그가 생성되는 것을 확인합시다.
 정상적으로 모두 배포가 되었다면 https://사용자계정.github.io 주소로 접속하였을 때 아래와 같은 화면이 보이게 됩니다. (게시글은 없는 게 정상입니다) ![image](https://user-images.githubusercontent.com/28253934/189927580-06297038-e88c-4d98-8585-5ae233c97fb3.png)
 
 ---
 4. 추가 사항  
+
 비교적 최신 글을 참고하더라도 Chirpy 테마를 적용하고 setting ->  Github Pages에서 브랜치를 변경해주어야 한다는 내용이 많았습니다.
 그런데 내부적으로 구조가 변경이 된 것인지는 모르겠지만 저의 경우 해당 브랜치가 생성이 되지 않으나 정상적으로 블로그 생성 및 게시글이 작성이 되는 것을 확인하였습니다. 
 ![image](https://user-images.githubusercontent.com/28253934/189928031-6683fec6-30ca-4936-b847-c6879063611d.png)
