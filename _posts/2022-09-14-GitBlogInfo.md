@@ -3,7 +3,7 @@ title: GitBlog
 author: scoke0801
 date: 2022-09-14 00:00:00 +09:00
 categories: [Github blog]
-tags: [Github, blog]
+tags: [github, blog]
 ---
 
 # Github Blog 생성 정리
