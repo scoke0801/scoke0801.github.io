@@ -1,9 +1,9 @@
-﻿---
-title : Github Blog 생성 정리
-date : 2022-09-13 11:35:00 +09:00
-categories : [Github Blog]
+﻿
+---
+title : 블로그 소개
+date : 2022-09-13 23:46:00 +09:00
+categories : [깃허브 블로그]
 tags : [github blog]
-
 ---
 
 # Github Blog 생성 정리
