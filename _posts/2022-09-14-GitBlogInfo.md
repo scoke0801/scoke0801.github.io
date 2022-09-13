@@ -32,12 +32,10 @@ tags: [Github, blog]
 		- 만약 해당 명령어를 수행하였을 때 cannot load such file -- webrick (LoadError)와 같은 에러 메세지가 나온다면 아래 명령어를 수행 후 다시 시도해주세요. 
 		- `bundle add webrick`
 	- 정상적으로 설치가 완료가 되고 실행이 된다면 콘솔창에 Server address: http://127.0.0.1:4000/ 메시지 등이 출력이 될 것입니다. 
-	- 해당 경로를 들어가보면 성공적으로 Jekyll에 의해서 다음과 같은 모습의 로컬 블로그가 생성된 것을 확인하실 수 있습니다. 
-  ![](https://user-images.githubusercontent.com/28253934/189923130-4381a2d6-8f8e-46b6-b7e7-9001f3b71638.png)
+	- 해당 경로를 들어가보면 성공적으로 Jekyll에 의해서 다음과 같은 모습의 로컬 블로그가 생성된 것을 확인하실 수 있습니다.
   
 ## 2. 깃허브 저장소 만들기
 깃허브에서 <계정이름>.github.io 형식으로 저장소를 생성해줍니다.
-![](https://user-images.githubusercontent.com/28253934/189920168-58680b36-74a3-4eff-88b3-8dfc674767a6.png)  
 
 생성된 저장소 경로를 원하는 폴더 경로에 clone하여주세요.
 
@@ -49,7 +47,6 @@ tags: [Github, blog]
 
 저는 http://jekyllthemes.org/themes/jekyll-theme-chirpy/ 요 링크의 테마가 깔끔하니 이뻐보여 선택하여 적용하였습니다. 
 
-![](https://user-images.githubusercontent.com/28253934/189919639-1852673f-11da-4243-8664-e2ae0cdbb2b3.png)
 Download를 눌러 테마를 다운받아줍니다.
 테마를 적용하기 위하여 불필요한 파일들의 삭제가 필요합니다.
 다행히도 이러한 절차가 tools/init.sh 파일에 작성이 되어있기에 해당 파일을 실행함으로써 간단히 해결해줍시다.
@@ -85,13 +82,11 @@ Download를 눌러 테마를 다운받아줍니다.
 
 ## 3-2 블로그 배포
 마지막으로 현재까지 작업한 파일들을 깃에 커밋하여 깃허브 블로그가 생성되는 것을 확인합시다.  
-정상적으로 모두 배포가 되었다면 <계정이름>.github.io 주소로 접속하였을 때 아래와 같은 화면이 보이게 됩니다. (게시글은 없는 게 정상입니다)   
-![](https://user-images.githubusercontent.com/28253934/189927580-06297038-e88c-4d98-8585-5ae233c97fb3.png)
+정상적으로 모두 배포가 되었다면 <계정이름>.github.io 주소로 접속하였을 때 아래와 같은 화면이 보이게 됩니다. (게시글은 없는 게 정상입니다) 
   
   ##  4. 추가 사항
 비교적 최신 글을 참고하더라도 Chirpy 테마를 적용하고 setting ->  Github Pages에서 브랜치를 변경해주어야 한다는 내용이 많았습니다.  
-그런데 내부적으로 구조가 변경이 된 것인지는 모르겠지만 저의 경우 해당 브랜치가 생성이 되지 않으나 정상적으로 블로그 생성 및 게시글이 작성이 되는 것을 확인하였습니다.   
-![](https://user-images.githubusercontent.com/28253934/189928031-6683fec6-30ca-4936-b847-c6879063611d.png)  
+그런데 내부적으로 구조가 변경이 된 것인지는 모르겠지만 저의 경우 해당 브랜치가 생성이 되지 않으나 정상적으로 블로그 생성 및 게시글이 작성이 되는 것을 확인하였습니다. 
 
 ### 참고 블로그
 > (Jekyll이란?) https://cheershennah.tistory.com/214  
