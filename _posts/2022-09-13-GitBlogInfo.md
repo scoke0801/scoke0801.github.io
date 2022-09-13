@@ -1,4 +1,4 @@
-﻿---
+---
 title: GitBlog
 author: scoke0801
 date: 2022-09-14 00:00:00 +09:00
