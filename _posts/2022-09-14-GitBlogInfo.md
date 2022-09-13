@@ -89,5 +89,5 @@ Download를 눌러 테마를 다운받아줍니다.
 그런데 내부적으로 구조가 변경이 된 것인지는 모르겠지만 저의 경우 해당 브랜치가 생성이 되지 않으나 정상적으로 블로그 생성 및 게시글이 작성이 되는 것을 확인하였습니다. 
 
 ### 참고 블로그
-> (Jekyll이란?) https://cheershennah.tistory.com/214  
-> (Jekyll테마 적용) https://seong6496.tistory.com/267  
+- (Jekyll이란?) https://cheershennah.tistory.com/214  
+- (Jekyll테마 적용) https://seong6496.tistory.com/267  
