@@ -1,5 +1,5 @@
 ---
-title: GitBlog
+title: Github Blog 생성 정리
 author: scoke0801
 date: 2022-09-14 00:00:00 +09:00
 categories: [Github blog]
@@ -33,9 +33,4 @@ tags: [github, blog]
 		- `bundle add webrick`
 	- 정상적으로 설치가 완료가 되고 실행이 된다면 콘솔창에 Server address: http://127.0.0.1:4000/ 메시지 등이 출력이 될 것입니다. 
 	- 해당 경로를 들어가보면 성공적으로 Jekyll에 의해서 다음과 같은 모습의 로컬 블로그가 생성된 것을 확인하실 수 있습니다.
-  
-## 2. 깃허브 저장소 만들기
-깃허브에서 <계정이름>.github.io 형식으로 저장소를 생성해줍니다.
-
-생성된 저장소 경로를 원하는 폴더 경로에 clone하여주세요.
- 
+   
