@@ -32,8 +32,10 @@ tags: [github, blog]
 		- 만약 해당 명령어를 수행하였을 때 cannot load such file -- webrick (LoadError)와 같은 에러 메세지가 나온다면 아래 명령어를 수행 후 다시 시도해주세요. 
 		- `bundle add webrick`
 	- 정상적으로 설치가 완료가 되고 실행이 된다면 콘솔창에 Server address: http://127.0.0.1:4000/ 메시지 등이 출력이 될 것입니다. 
-	- 해당 경로를 들어가보면 성공적으로 Jekyll에 의해서 다음과 같은 모습의 로컬 블로그가 생성된 것을 확인하실 수 있습니다.
+	- 해당 경로를 들어가보면 성공적으로 Jekyll에 의해서 다음과 같은 모습의 로컬 블로그가 생성된 것을 확인하실 수 있습니다.  
+	![image](https://user-images.githubusercontent.com/28253934/189923130-4381a2d6-8f8e-46b6-b7e7-9001f3b71638.png)
 
-## 2. Test
-- 1234
+## 깃허브 저장소 만들기
+깃허브에서 <계정이름>.github.io 형식으로 저장소를 생성해줍니다.  
+![image](https://user-images.githubusercontent.com/28253934/189920168-58680b36-74a3-4eff-88b3-8dfc674767a6.png)
    
